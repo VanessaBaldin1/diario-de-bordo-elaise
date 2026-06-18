@@ -670,6 +670,25 @@ footer {
   font-size: 18px;
 }
 
+/* VÍDEOS SOMENTE DA PÁGINA DJ */
+
+.dj-videos .video {
+  display: flex;
+  justify-content: center;
+}
+
+.dj-videos .video video {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 80vh;
+
+  object-fit: contain;
+
+  border-radius: 10px;
+  display: block;
+}
+
 /*RESPONSIVO*/
 
 @media (max-width: 768px) {
